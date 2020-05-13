@@ -20,7 +20,7 @@
       </Node>
       <Node label="Mapping">
         <Children>
-          <Repeater label="DCEs" xpath="Mapping/DCEs">
+          <Repeater label="DCEs" xpath="Realizations/DCEs">
             <Node xpathlabel="Name">
               <Children>
                 <Node xpathlabel="Name" xpath="Vector[@id='thalwegs_01']" type="vector" symbology="thalwegs" />
@@ -41,8 +41,8 @@
           </Repeater>
           <Node label="Riverscape">
             <Children>
-              <Node xpathlabel="Name" xpath="Mapping/RS_Context/Vector[@id='vbcenterline_01']" type="vector" symbology="" />
-              <Node xpathlabel="Name" xpath="Mapping/RS_Context/Vector[@id='valleybottom_01']" type="vector" symbology="valley_bottom" />
+              <Node xpathlabel="Name" xpath="Realizations/RS_Context/Vector[@id='vbcenterline_01']" type="vector" symbology="" />
+              <Node xpathlabel="Name" xpath="Realizations/RS_Context/Vector[@id='valleybottom_01']" type="vector" symbology="valley_bottom" />
             </Children>
           </Node>
         </Children>
